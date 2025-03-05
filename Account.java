@@ -389,7 +389,7 @@ import java.util.Scanner;
             	            } else if (choice == 5) {
             	            	System.out.println("It's exiting...");
             	            	sc.close();
-            	            	break;
+            	            	return;
             	            }
             	        }
             	    }
